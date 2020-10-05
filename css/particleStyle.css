@@ -1,10 +1,11 @@
-
-#particles-js{
+#particles-js {
   width: 100%;
   height: 100%;
-  background-color: #4f1869;
-  background-image: url('');
+  position: fixed;
+  background: rgb(33, 36, 50);
+  background-image: url("");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  z-index: 0;
 }
