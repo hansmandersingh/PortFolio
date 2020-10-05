@@ -119,13 +119,20 @@ a {
   align-items: flex-start;
 }
 
-.projects{
+.projects {
   margin-right: 40px;
 }
 
+.box:hover {
+  background-color: transparent;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+}
 
 @media only screen and (max-width: 449px) {
-  .projects{
-    
+  .projects {
   }
 }
